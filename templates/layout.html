@@ -4,17 +4,4 @@
 <script type="text/javascript">
   var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
 </script>
-<style type="text/css">
-    #container {
-        height: 500px; 
-        min-width: 310px; 
-        max-width: 800px; 
-        margin: 0 auto; 
-    }
-    .loading {
-        margin-top: 10em;
-        text-align: center;
-        color: gray;
-    }
-</style>
 {% block body %}{% endblock %}
